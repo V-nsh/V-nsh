@@ -11,7 +11,7 @@ export default function Home() {
               bg-gradient-to-r bg-clip-text  text-transparent 
               from-indigo-500 via-purple-500 to-indigo-500
               animate-text lg:text-8xl">Vansh</div>
-        <div className="py-5 px-12 text-french-gray">Hi, I am a developer.</div>
+        <div className="py-5 px-5 text-french-gray">Hi, I am a developer.</div>
       </div>
 
       {/* projects and contact */}
