@@ -33,7 +33,7 @@ export default function Home() {
 
         {/* contact */}
         <Link className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-        href="/V-nsh/contact"
+        href="/contact"
         >
           <h2 className="mb-3 text-2xl font-semibold">
         Contact{' '}<span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
