@@ -16,7 +16,7 @@ export default function Navbar() {
                     Contact
                 </Link> 
                 </div>
-                <Link href="/">
+                <Link className="text-white" href="/">
                     Home
                 </Link>
             </div>

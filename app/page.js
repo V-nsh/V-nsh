@@ -15,7 +15,7 @@ export default function Home() {
       </div>
 
       {/* projects and contact */}
-      <div className="mb-32 grid grid-cols-1 text-left max-w-full lg:max-w-8xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left mb:grid-cols-1 sm:grid-cols-1"> 
+      <div className="mb-32 grid grid-cols-1 text-left text-white max-w-full lg:max-w-8xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left mb:grid-cols-1 sm:grid-cols-1"> 
 
         {/* projects */}
         <Link className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"

@@ -17,7 +17,7 @@ export default function Home() {
                 {/* projects */}
 
                 {/* medihelp */}
-            <a className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
+            <a className="group rounded-lg border border-transparent px-5 py-4 transition-colors text-white hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
             href="https://github.com/MERN-MediHelp"
             >
                 <h2 className="mb-3 text-2xl font-semibold">
