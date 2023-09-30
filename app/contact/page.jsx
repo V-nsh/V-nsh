@@ -19,8 +19,8 @@ export default function Home() {
         {
             icon: <Mail />,
             link: "mailto:dev.vanshpurohit@gmail.com",
-            label: "Email",
-            handle: "dev.vanshpurohit@gmail.com",
+            label: "@gmail.com",
+            handle: "dev.vanshpurohit",
         },
     ]
     return (
@@ -30,7 +30,7 @@ export default function Home() {
             <div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
                 <div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
                     {socials.map((soc) => (
-                        <div className="overflow-hidden relative duration-700 border rounded-xl hover:bg-zinc-800/10 group md:gap-8 hover:border-zinc-400/50 border-zinc-600">
+                        <div key={soc.label} className="overflow-hidden relative duration-700 border rounded-xl hover:bg-zinc-800/10 group md:gap-8 hover:border-zinc-400/50 border-zinc-600">
                             <Link href={soc.link}
                             target="_blank"
                             className="p-4 relative flex flex-col items-center gap-4 duration-700 group md:gap-8 md:py-24  lg:pb-48  md:p-16"
@@ -43,7 +43,7 @@ export default function Home() {
 									{soc.icon}
 								</span>{" "}
 								<div className="z-10 flex flex-col items-center">
-									<span className="text-xl font-medium duration-150 lg:text-2xl text-zinc-200 group-hover:text-white font-display">
+									<span className="text-md font-medium duration-150 lg:text-2xl text-zinc-200 group-hover:text-white font-display">
 										{soc.handle}
 									</span>
 									<span className="mt-4 text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
