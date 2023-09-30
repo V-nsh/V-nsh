@@ -17,8 +17,8 @@ export default function Home() {
       <div className="mb-32 grid grid-cols-1 text-left max-w-full lg:max-w-8xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left mb:grid-cols-1 sm:grid-cols-1"> 
 
         {/* projects */}
-        <a className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-        href="/V-nsh/projects"
+        <Link className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
+        href="/projects"
         >
           <h2 className="mb-3 text-2xl font-semibold">
           Projects{' '}<span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -28,10 +28,10 @@ export default function Home() {
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
             View my projects.
           </p>
-          </a>
+          </Link>
 
         {/* contact */}
-        <a className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
+        <Link className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
         href="/V-nsh/contact"
         >
           <h2 className="mb-3 text-2xl font-semibold">
@@ -42,10 +42,10 @@ export default function Home() {
         <p className="m-0 max-w-[30ch] text-sm opacity-50">
             Let&apos;s connect!
           </p>
-        </a>
+        </Link>
 
           {/* Resume */}
-        <a className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
+        <Link className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
         href="/resume.pdf"
         >
           <h2 className="mb-3 text-2xl font-semibold">
@@ -56,7 +56,7 @@ export default function Home() {
         <p className="m-0 max-w-[30ch] text-sm opacity-50">
             View my resume.
           </p>
-        </a>
+        </Link>
 
       </div>
     </main>
