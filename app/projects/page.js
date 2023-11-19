@@ -2,7 +2,7 @@ import Navbar from "../components/navbar";
 
 export default function Home() {
     return (
-        <div className="grid min-h-screen text-white grid-row-auto items-left justify-between p-24 bg-ruski-violet bg-contain">
+        <div className="grid min-h-screen items-center justify-center text-white grid-row-auto items-left justify-between p-24 bg-ruski-violet bg-contain">
             <Navbar />
             <div className="max-w-2xl mx-auto h-min lg:mx-0">
 					<h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
