@@ -24,10 +24,10 @@ export default function Home() {
         },
     ]
     return (
-        <div className="grid min-h-screen grid-col items-left justify-between p-24 bg-ruski-violet bg-contain">
+        <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-ruski-violet bg-contain">
             <Navbar />
 
-            <div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
+            <div className="container flex items-center justify-center px-4 mx-auto">
                 <div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
                     {socials.map((soc) => (
                         <div key={soc.label} className="overflow-hidden relative duration-700 border rounded-xl hover:bg-zinc-800/10 group md:gap-8 hover:border-zinc-400/50 border-zinc-600">
@@ -55,6 +55,6 @@ export default function Home() {
                     ))}
                 </div>
             </div>
-        </div>
+        </main>
     )
 }
